@@ -7,7 +7,7 @@ if (url.includes('selectRule=')) {
   
   console.log(`🔔【联通选号】规则已强制修改`);
   console.log(`原参数: ${url.match(/selectRule=[^&]*/)[0]}`);
-  console.log(`新参数: selectRule=319`);
+  console.log(`新参数: selectRule=316`);
   console.log(`----------------------------------------`);
   
   $done({url: newUrl});
